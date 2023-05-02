@@ -1,4 +1,4 @@
-package it.epicode.be;
+
 import java.util.Scanner;
 import java.util.Arrays;
 

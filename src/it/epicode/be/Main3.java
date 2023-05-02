@@ -1,4 +1,4 @@
-package it.epicode.be;
+
 import java.util.Scanner;
 
 public class Main3 {
@@ -9,7 +9,7 @@ public class Main3 {
 		
 	};
 	
-	public static double perimetroRettangolo() {
+	public static void perimetroRettangolo() {
 		Scanner userCalc = new Scanner(System.in);
 		System.out.println("Inserisci un numero!");
 		double num1 = userCalc.nextDouble();
