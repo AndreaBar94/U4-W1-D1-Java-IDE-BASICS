@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class Main1 {
 	public static void main(String[] args) {
-		//Moltiplica();
-		//Concatena();
+		//moltiplica();
+		//concatena();
 		inserisciInArray();
 	};
 	
-	public static void Moltiplica() {
+	public static void moltiplica() {
 		//multiplier
 		Scanner userNum = new Scanner(System.in);
 		System.out.println("Inserisci un numero!");
@@ -21,7 +21,7 @@ public class Main1 {
 		userNum.close();
 	};
 	
-	public static void Concatena() {
+	public static void concatena() {
 		//concatenation
 		Scanner userStringNum = new Scanner(System.in);
 		System.out.println("Scrivi del testo!");
