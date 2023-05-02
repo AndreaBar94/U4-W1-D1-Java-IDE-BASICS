@@ -42,15 +42,15 @@ public class Main3 {
 	
 	public static void perimetroTriangolo() {
         Scanner in = new Scanner(System.in);
-          System.out.print("primo lato del triangolo: ");
+          System.out.print("Lato 1: ");
           double lato1 = in.nextDouble();
-          System.out.print("secondo lato del triangolo: ");
+          System.out.print("Lato 2: ");
           double lato2 = in.nextDouble();
-          System.out.print("terzo lato del triangolo: ");
+          System.out.print("Lato 3: ");
           double lato3 = in.nextDouble();
           double perimetro = lato1+lato2+lato3;
           double area = Math.sqrt(perimetro * (perimetro-lato1) * (perimetro-lato2) * (perimetro-lato3));
-          System.out.println("l'area del triangolo è:" + area);
+          System.out.println("L'area del triangolo è:" + area);
           in.close();
   }
 	
