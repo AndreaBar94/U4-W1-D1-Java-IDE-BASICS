@@ -6,7 +6,7 @@ public class Main1 {
 	public static void main(String[] args) {
 		Moltiplica();
 		Concatena();
-		inserisciInArray();
+		//inserisciInArray();
 	};
 	
 	public static void Moltiplica() {
@@ -32,22 +32,22 @@ public class Main1 {
 		userStringNum.close();
 	};
 	
-	public static void inserisciInArray() {
-		//array
-		Scanner userArray = new Scanner(System.in);
-		String[] data = {"a", "b", "c", "d", "e", ""};
-		System.out.println("Scrivi del testo!");
-		String strData = userArray.nextLine();
-		
-		for(int i = 2; i < data.length-1 ; i++) {
-			data[i] = data[i+1];
-		}
-		
-		
-	
-		System.out.println(Arrays.toString(data));
-		userArray.close();
- 	}
+//	public static void inserisciInArray() {
+//		//array
+//		Scanner userArray = new Scanner(System.in);
+//		String[] data = {"a", "b", "c", "d", "e", ""};
+//		System.out.println("Scrivi del testo!");
+//		String strData = userArray.nextLine();
+//		
+//		for(int i = 2; i < data.length-1 ; i++) {
+//			data[i] = data[i+1];
+//		}
+//		
+//		
+//	
+//		System.out.println(Arrays.toString(data));
+//		userArray.close();
+// 	}
 	
 }
 

@@ -15,8 +15,8 @@ public class Main3 {
 		double num1 = userCalc.nextDouble();
 		System.out.println("Inserisci un altro numero!");
 		double num2 = userCalc.nextDouble();
-		double result = (num1+num2)*2;
-		System.out.println("Il perimetro del rettangolo è: " + result);
+		double resultDouble = (num1+num2)*2;
+		System.out.println("Il perimetro del rettangolo è: " + resultDouble);
 		userCalc.close();
 		
 	};
